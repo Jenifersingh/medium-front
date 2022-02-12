@@ -1,0 +1,48 @@
+.title,
+.description,
+.headImage,
+.editBody {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.titleInput {
+  height: 60px;
+  width: 100%;
+  border: 0;
+  font-size: 40px;
+  outline: 0;
+}
+
+.descInput {
+  height: 40px;
+  width: 100%;
+  border: 0;
+  font-size: 30px;
+  outline: 0;
+}
+
+.editPageCont > div {
+  margin-bottom: 30px;
+}
+
+.editPageCont {
+  padding: 40px;
+  width: 80%;
+  /* border: 1px solid black; */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px 0px rgb(168, 168, 168);
+}
+
+.postButton {
+  display: flex;
+  justify-content: center;
+}
+
+.postButton > button {
+  width: 150px;
+}

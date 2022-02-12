@@ -1,0 +1,90 @@
+.topNav {
+  height: 75px;
+  background-color: #ffc017;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgba(25, 25, 25, 1);
+}
+
+.topNav > div {
+  flex-grow: 1;
+}
+
+.logo {
+  height: 30px;
+}
+
+.navOption {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.navOption > div {
+  margin: 10px;
+}
+
+.logoHead {
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+}
+
+.homeBody {
+  height: 400px;
+  background-color: #ffc017;
+  border-bottom: 1px solid rgba(25, 25, 25, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 400px; */
+  /* align-items: center; */
+}
+
+.homeText {
+  font-size: 60px;
+  padding: 40px 40px 10px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.homeBody > div > div {
+  margin-bottom: 40px;
+}
+
+.subText {
+  padding-left: 40px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonCont {
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.homePostBody > div {
+  margin: 40px;
+}
+
+.homePostBody {
+  /* display: flex;
+  justify-content: center; */
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit {
+  background-color: rgb(235, 229, 229);
+  padding: 14px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  left: 400px;
+  bottom: 200px;
+}

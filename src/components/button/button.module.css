@@ -1,0 +1,15 @@
+.button {
+  padding: 12px;
+  border-radius: 9999px;
+  border: 0;
+  color: #fff;
+  background-color: rgba(25, 25, 25, 1);
+  cursor: pointer;
+}
+
+.plainButton {
+  background-color: transparent;
+  color: rgba(25, 25, 25, 1);
+  cursor: pointer;
+  border: 0;
+}
